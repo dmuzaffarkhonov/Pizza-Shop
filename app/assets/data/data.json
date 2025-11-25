@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Italian",
+    "filling": [
+      "onion",
+      "potato",
+      "tomato",
+      "mushrooms",
+      "cheese",
+      "olives",
+      "meat"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 9, "28": 8.35, "30": 12 },
+    "category": "meat",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "image": "/images/card_imgs/venecia.png",
+    "name": "Venecia",
+    "filling": [
+      "tomato sauce",
+      "mozzarella",
+      "ham",
+      "mushrooms",
+      "olives",
+      "bell pepper"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 10.2, "28": 11.3, "30": 15.8 },
+    "category": "meat",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "image": "/images/card_imgs/meat.png",
+    "name": "Meat",
+    "filling": [
+      "bacon",
+      "sausages",
+      "ham",
+      "pepperoni",
+      "mozzarella",
+      "tomato sauce"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 11.4, "28": 12.7, "30": 17.9 },
+    "category": "meat",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "image": "/images/card_imgs/cheese.png",
+    "name": "Cheese",
+    "filling": [
+      "mozzarella",
+      "cheddar",
+      "parmesan",
+      "blue cheese",
+      "cream sauce"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 8.1, "28": 9, "30": 12.9 },
+    "category": "vegetarian",
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "image": "/images/card_imgs/argentina.png",
+    "name": "Argentina",
+    "filling": [
+      "grilled beef",
+      "red onion",
+      "bell pepper",
+      "bbq sauce",
+      "mozzarella"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 10.8, "28": 12, "30": 16.5 },
+    "category": "meat",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "image": "/images/card_imgs/gribnaya.png",
+    "name": "Mushroom",
+    "filling": ["mushrooms", "onion", "mozzarella", "cream sauce"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 7.5, "28": 8.3, "30": 11.7 },
+    "category": "mushroom",
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "image": "/images/card_imgs/tomato.png",
+    "name": "Tomato",
+    "filling": ["tomatoes", "mozzarella", "basil", "tomato sauce"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 6.8, "28": 7.5, "30": 10.9 },
+    "category": "vegetarian",
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "image": "/images/card_imgs/italian_x2.png",
+    "name": "Italian x2",
+    "filling": [
+      "tomato sauce",
+      "mozzarella",
+      "tomatoes",
+      "olives",
+      "mushrooms",
+      "salami",
+      "red onion"
+    ],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 11.5, "28": 12.8, "30": 18.2 },
+    "category": "meat",
+    "quantity": 1
+  },
+
+  {
+    "id": 9,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Green Garden",
+    "filling": ["bell pepper", "spinach", "tomato", "cheese", "olive oil"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 8, "28": 9, "30": 12 },
+    "category": "vegetarian",
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Mediterranean",
+    "filling": ["zucchini", "tomato", "feta cheese", "olives", "onion"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 8.5, "28": 9.8, "30": 13 },
+    "category": "vegetarian",
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Forest Mushroom",
+    "filling": ["mushrooms", "cheddar", "garlic", "cream sauce"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 8, "28": 9.2, "30": 12 },
+    "category": "mushroom",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Mushroom Deluxe",
+    "filling": ["mushrooms", "spinach", "mozzarella", "parmesan"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 8.7, "28": 9.5, "30": 13 },
+    "category": "mushroom",
+    "quantity": 1
+  },
+  {
+    "id": 13,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Creamy Mushroom",
+    "filling": ["mushrooms", "cream sauce", "onion", "cheese"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 7.9, "28": 8.8, "30": 11.5 },
+    "category": "mushroom",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Sea Delight",
+    "filling": ["shrimp", "mussels", "mozzarella", "tomato sauce", "basil"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 12, "28": 13.5, "30": 18 },
+    "category": "sea products",
+    "quantity": 1
+  },
+  {
+    "id": 15,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Ocean Feast",
+    "filling": ["calamari", "shrimp", "cheese", "tomato sauce"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 12.5, "28": 14, "30": 18.5 },
+    "category": "sea products",
+    "quantity": 1
+  },
+  {
+    "id": 16,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Seafood Special",
+    "filling": ["shrimp", "salmon", "mozzarella", "cream sauce"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 13, "28": 14.5, "30": 19 },
+    "category": "sea products",
+    "quantity": 1
+  },
+  {
+    "id": 17,
+    "image": "/images/card_imgs/italian.png",
+    "name": "Neptune Pizza",
+    "filling": ["mussels", "shrimp", "tomatoes", "mozzarella"],
+    "sizes": ["26", "28", "30"],
+    "prices": { "26": 12.8, "28": 14, "30": 18.5 },
+    "category": "sea products",
+    "quantity": 1
+  }
+]

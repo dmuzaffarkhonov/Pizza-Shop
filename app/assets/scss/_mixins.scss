@@ -1,0 +1,29 @@
+@mixin media($d) {
+  @media (max-width: $d) {
+    @content;
+  }
+}
+
+@mixin pr-btn {
+  padding: 11px 56px 10px;
+  font-weight: 500;
+  font-size: 17.74px;
+  line-height: 1.1;
+
+  background: var(--main-gradient);
+  color: var(--title-color);
+
+  border-radius: 700px;
+  border-top-right-radius: 675px;
+
+  cursor: pointer;
+  transition: all 0.1s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

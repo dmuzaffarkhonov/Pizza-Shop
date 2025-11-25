@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Show All", "value": "all" },
+  { "id": 2, "name": "Meat", "value": "meat" },
+  { "id": 3, "name": "Vegetarian", "value": "vegetarian" },
+  { "id": 4, "name": "Mushroom", "value": "mushroom" },
+  { "id": 5, "name": "Sea Products", "value": "sea products" }
+]
