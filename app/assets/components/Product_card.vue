@@ -103,9 +103,9 @@ const selectedSize = ref(props.data?.sizes[0]);
   }
 
   @include media(427px) {
-    width: 166px;
-    height: 237px;
-    padding: 0 17px 13px;
+    width: 146px;
+    height: 231px;
+    padding: 0 12px 10px;
   }
 
   &__img {

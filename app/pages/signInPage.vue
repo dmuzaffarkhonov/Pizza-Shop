@@ -132,13 +132,12 @@ function handleSubmit() {
 
   .container {
     width: 100%;
-    max-width: 520px;
+    max-width: 384px;
   }
 
   .signIn-wr {
-    padding: 48px;
+    width: 100%;
     border-radius: 16px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -152,16 +151,17 @@ function handleSubmit() {
 
     font-family: "muller Extra Bold";
     text-align: center;
-    margin: 0 auto 32px;
+    margin: 0 auto;
+    margin-bottom: 32px;
 
-    @include media(500px) {
+    @include media(380px) {
       font-size: 24px;
     }
   }
 
   &__form {
     width: 100%;
-    max-width: 384px;
+    max-width: 380px;
 
     display: flex;
     flex-direction: column;
@@ -191,6 +191,11 @@ function handleSubmit() {
 
       background-color: #240e00;
       margin-bottom: 20px;
+
+      @include media(380px) {
+        padding: 4px 8px;
+        margin-bottom: 16px;
+      }
     }
 
     #password {
@@ -205,20 +210,23 @@ function handleSubmit() {
 
     margin-top: 18px;
     margin-bottom: 14px;
+
+    @include media(380px) {
+      margin-top: 10px;
+    }
   }
 
   &__actions {
     width: 100%;
-
+    max-width: 380px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    @include media(500px) {
+    @include media(380px) {
       flex-direction: column;
-      gap: 8px;
-
       align-items: start;
+      gap: 2px;
     }
   }
 
@@ -264,6 +272,12 @@ function handleSubmit() {
     &:active {
       opacity: 0.6;
     }
+  }
+
+  &__back {
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 14px;
   }
 }
 </style>
