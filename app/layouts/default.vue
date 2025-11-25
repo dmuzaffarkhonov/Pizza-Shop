@@ -334,7 +334,7 @@
         </div>
         <div class="footer__bottom">
           <p class="footer__number">
-            <span>+</span>7 <span>(</span>937<span>)</span> 333-55-33
+            <span>+</span>X <span>(</span>XXX<span>)</span> XXX-XX-XX
           </p>
           <ul class="footer__social-media">
             <li>
