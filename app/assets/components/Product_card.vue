@@ -103,7 +103,7 @@ const selectedSize = ref(props.data?.sizes[0]);
   }
 
   @include media(427px) {
-    width: 146px;
+    width: 141px;
     height: 231px;
     padding: 0 12px 10px;
   }
