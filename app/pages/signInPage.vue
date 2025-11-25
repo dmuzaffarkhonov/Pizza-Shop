@@ -184,6 +184,7 @@ function handleSubmit() {
       font-size: 18px;
       line-height: 1.1;
       color: var(--title-color);
+      font-family: sans-serif;
 
       border-radius: 8px;
       border: 1px solid #b1ada9;
