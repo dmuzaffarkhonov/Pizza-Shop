@@ -1,3 +1,13 @@
+Pizza Shop – Vue 3 / Nuxt 3 Project
+
+This is a modern pizza shop web application built with Vue 3 and Nuxt 3, designed as a portfolio project. It features a fully interactive product catalog, shopping cart, and user authentication system implemented using local storage (no backend API).
+
+Users can browse pizzas by categories, select sizes, adjust quantities, and add items to the cart. Orders can be placed with a delivery address, and real-time notifications inform users about successful actions or warnings using Vue Toastification.
+
+The project uses Pinia for state management, smooth scrolling for better navigation, and a responsive design to provide a seamless experience on both mobile and desktop devices.
+
+This project demonstrates frontend development skills, component-based architecture, state management, handling authentication locally, and building a fully functional e-commerce interface without relying on a backend. It’s a showcase of creating a complete, interactive web app entirely on the frontend.
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
